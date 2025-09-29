@@ -1,12 +1,14 @@
 
 import './App.css'
+import Header from './components/Header.jsx'
 
 function App() {
 
   return (
     <>
       <h1>Seja bem vindo!</h1>
-      <p>Olá, meu nome é Victor Ricardo</p>
+      <p>Meu nome é Victor Ricardo</p>
+      <Header />
     </>
   )
 }
