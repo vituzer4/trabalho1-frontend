@@ -1,12 +1,11 @@
 // 1. Importar React e o hook useState
 import React, { useState } from 'react';
-
 // 2. Importar os componentes que criamos
 import Header from './components/Header.jsx'; // Corrigido para 'H' maiúsculo
 import Footer from './components/Footer.jsx'; // Corrigido para 'F' maiúsculo
 import ListaAlunos from './components/ListaAlunos.jsx';
 import Alerta from './components/Alerta.jsx';
-
+import Acoes from './components/Acoes.jsx';
 // 3. Importar o CSS
 import './App.css';
 
@@ -47,6 +46,7 @@ function App() {
         <h3>Botão de Clique</h3>
         <button onClick={handleClique}>Clique Aqui</button>
         <p>Você clicou {cliques} vezes.</p>
+        <Acoes />
       </main>
 
       {/* O Footer vai aqui */}

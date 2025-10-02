@@ -61,3 +61,33 @@
   background-color: #f8d7da;
   border-color: #f5c6cb;
 }
+
+/* Estilos para Ações e Card */
+.acoes-container {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.acoes-container button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #666;
+  cursor: pointer;
+}
+
+.acoes-container .btn-excluir {
+  background-color: #dc3545;
+  color: white;
+  border-color: #dc3545;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+}
